@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/03_KINEMATICS_Worksheet (1) 1/03_KINEMATICS_Worksheet/Part 2 POOL/Scenes/Pool.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
