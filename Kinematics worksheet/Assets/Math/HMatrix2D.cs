@@ -190,12 +190,17 @@ public float GetDeterminant()
 
 public void SetTranslationMat(float transX, float transY)
 {
-    // your code here
+    SetIdentity();
+    entries[0, 2] = transX;
+    entries[1, 2] = transY;
 }
 
 public void SetRotationMat(float rotDeg)
 {
-    // your code here
+    SetIdentity();
+    float rad = rotDeg * Mathf.Deg2Rad;
+    entries[0, 0] = Mathf.Cos(rad); entries[0, 1] = -Mathf.Sin(rad);
+    entries[1, 0] = Mathf.Sin(rad); entries[1, 1] = Mathf.Cos(rad);
 }
 
 public void SetScalingMat(float scaleX, float scaleY)
