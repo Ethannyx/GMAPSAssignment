@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -236,10 +236,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 489493121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d110783f9df238a4db32c9ffd7ff852c, type: 3}
+  m_Script: {fileID: 11500000, guid: dcc2543997424024e9dc4f589fc33c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: {x: 3, y: 2, z: 4}
+  speedX: 2
+  speedY: 0
+  speedZ: 0
 --- !u!135 &489493123
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -442,10 +444,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742496529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc88028541713ec4e916daf3b6eaeb90, type: 3}
+  m_Script: {fileID: 11500000, guid: 44197828bd90fbc458e7bc0011e3eed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: {x: 3, y: 0, z: 0}
 --- !u!135 &1742496531
 SphereCollider:
   m_ObjectHideFlags: 0

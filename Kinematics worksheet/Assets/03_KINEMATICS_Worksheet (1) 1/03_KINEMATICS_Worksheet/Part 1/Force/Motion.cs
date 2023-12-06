@@ -16,11 +16,15 @@ public class Motion : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Get the time passed since the last frame
         float dt = Time.deltaTime;
+
+        //calculating the change in position based on speed and time
         float dx = speedX * dt;
         float dy = speedY * dt;
         float dz = speedZ * dt;
 
+        //Update the position of the ball based on the speed and time
         transform.position += new Vector3(dx, dy, dz);
     }
 }

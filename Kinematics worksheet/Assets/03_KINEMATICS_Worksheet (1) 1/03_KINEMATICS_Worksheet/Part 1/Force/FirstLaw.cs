@@ -8,8 +8,9 @@ public class FirstLaw : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>(); // Get the Rigidbody component attached to the GameObject
-        rb.AddForce(new Vector3(500f, 0f, 0f)); // Apply force along the X-axis
+        rb = GetComponent<Rigidbody>(); 
+        //Adding a force along the x axis (pushing left side of sphere)
+        rb.AddForce(new Vector3(500f, 0f, 0f));
     }
 
     // Update is called once per frame
