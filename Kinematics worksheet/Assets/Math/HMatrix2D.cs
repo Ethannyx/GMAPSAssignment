@@ -222,7 +222,7 @@ public float GetDeterminant()
         {
             //Ternary operator is (x == y) ? 1.0f : 0.0f 
             //(x == y) checks if number of rows = number of columns
-            //? checks if true and 1 will be outcome of true and o will be outcome of false
+            //? checks if true and 1 will be outcome of true and 0 will be outcome of false
             entries[x, y] = x == y ? 1 : 0;
         }
     }
